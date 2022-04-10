@@ -1,0 +1,25 @@
+docstrings: ye hamare pas basically comment hi huta hai or python ka iska builtin function h or triplr qoutes m likha jata hai or jab ham isse call krte hain tu pora triple qoutes wala print kra deta hai.
+
+readlines(): har file ki line se ik list return krta hai ye
+
+join(iterable): basically join krdeta hai given word ko jo bhi apne iterable dia huta hai us se iterable(kisi bhi cheez se replace kra ho jese k line *&^%$#)
+
+str.startswith(prefix[, start[, end]]): return the value from the starting
+
+strip: removes whitespaces from the start and the begining of the given line/file
+
+FOR LIBRARY QEUEUE(all are module functions):
+maxsize – Number of items allowed in the queue.
+empty() – Return True if the queue is empty, False otherwise.
+full() – Return True if there are maxsize items in the queue. If the queue was initialized with maxsize=0 (the default), then full() never returns True.
+get() – Remove and return an item from the queue. If queue is empty, wait until an item is available.
+get_nowait() – Return an item if one is immediately available, else raise QueueEmpty.
+put(item) – Put an item into the queue. If the queue is full, wait until a free slot is available before adding the item.
+put_nowait(item) – Put an item into the queue without blocking. If no free slot is immediately available, raise QueueFull.
+qsize() – Return the number of items in the queue.
+
+__init__: it is a reseved key word for python.It is called as a constructor in object oriented terminology. This method is called when an object is created from a class and it allows the class to initialize the attributes of the class.
+
+self: The self keyword is used to represent an instance (object) of the given class. ... However, since the class is just a blueprint, self allows access to the attributes and methods of each object in python. This allows each object to have its own attributes and methods.
+
+if __name__=='main': call main file basically uses when we are using 2 files
